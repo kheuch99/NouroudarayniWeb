@@ -6,5 +6,15 @@
 		<description>description de l'article</description>
 		<url>//path</url>
 		<image>source image</image>		
+		<etat>nouveau</etat>
+	</article>
+	<article>
+		<titre>article2</titre>
+		<auteur>lamda</auteur>
+		<date>20/01/2010</date>
+		<description>description of article</description>
+		<url>//url</url>
+		<image>source image</image>		
+		<etat>nouveau</etat>
 	</article>
 </articles>
