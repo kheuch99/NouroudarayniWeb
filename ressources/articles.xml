@@ -1,0 +1,10 @@
+<articles>
+	<article>
+		<titre>article1</titre>
+		<auteur>moussa</auteur>
+		<date>2/01/2009</date>
+		<description>description de l'article</description>
+		<url>//path</url>
+		<image>source image</image>		
+	</article>
+</articles>

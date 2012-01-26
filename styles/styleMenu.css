@@ -1,0 +1,102 @@
+#menu {
+	float: left;
+	width: 770px;	
+}
+
+#login {
+	float: right;
+	width: 200px;
+}
+
+#MenuDeroulant {
+    margin: 0;
+    padding: 0;
+}       
+
+#MenuDeroulant li {    
+	float: left;
+    list-style: none;
+	font: 12px Tahoma, Arial // La taille et la police du texte du menu 
+}
+
+#MenuDeroulant li a {    
+	display: block;
+    //background: #20548E; /* Couleur de fond des titres du menu (bleu foncé) */
+    padding: 6px 12px 0px 12px;
+    text-decoration: none;
+    //border-right: 1px solid black;
+    //width: 70px;
+    color: #000; /* Couleur de police des titres du menu (blanc)*/
+    white-space: nowrap;
+}
+
+#MenuDeroulant li a:hover , #MenuDeroulant li a.active {    
+	background-color: #009933;
+	color: white;
+} /* Couleur de fond des titres du menu au survol de la souris (bleu encore plus foncé) */
+
+#MenuDeroulant li ul {    
+	margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+   // border-top: 1px solid white;
+}
+
+#MenuDeroulant li ul li {    
+	float: none;
+    display: inline;
+}
+
+#MenuDeroulant li ul li a {    
+	width: auto;
+	color: white;
+    //background: #9F1B1B; /* Couleur de fond des items déroulant du menu (rouge bordeaux) */
+}
+
+#MenuDeroulant li ul li a {
+	background: url("../images/submenu-bg1.png") 0 0 repeat;
+}
+
+#MenuDeroulant li ul li a:hover {    
+	background: url("../images/submenu-bg2.png") 0 0 repeat;
+} 
+
+div.login_overlay {
+	top: 300px;	
+}
+
+/* the overlayed element */
+.login_overlay {
+	
+	/* must be initially hidden */
+	display: none;
+	
+	/* place overlay on top of other elements */
+	z-index: 10000;
+	
+	/* styling */
+	background: url("../images/submenu-bg2.png") 0 0 repeat;
+	width: 350px;	
+	min-height: 200px;
+	border: 2px solid #666;
+	border-radius: 10px;
+	color: white;
+	
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;	
+}
+
+/* close button positioned on upper right corner */
+.login_overlay .close {
+	background-image: url("../images/closeButton.png");
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+}
+
+

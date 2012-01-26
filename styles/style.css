@@ -1,0 +1,80 @@
+body {
+	/*background: url('../img/bg.jpg') center 0 no-repeat #151515;*/
+	background: url("http://www.magal-touba.org/images/pub.jpg");
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#page {
+	/*background: url('../img/page-bg.jpg') center 0 no-repeat black;
+	margin: 150px 150px 150px 150px;
+	height: 1250px;	*/
+	width: 1000px;
+	margin: 150px auto 0 auto;
+	padding: 0;
+	border: 1px solid #0C0C0C;
+	background-color: white;
+}
+
+
+/* ============================== HEADER ============================== */
+
+#header {
+	width: 980px;
+	height: 205px;		
+	margin: auto;
+}
+
+#menuBar {
+	height: 23px;
+}
+
+#baniere {
+	height: 180px;
+	margin: 0px;
+	padding: 0px;
+	background: url("../images/menu_border.png") center 0 no-repeat;
+}
+
+#baniere2 {
+	padding-top: 10px;	
+}
+
+/* ============================== CONTENT ============================== */
+
+#content {
+	width: 980px;	
+	margin: auto;	
+	padding: 20px 0px;	
+}
+
+/* ============== CONTENU ============== */
+
+#contenu {
+	float: left;
+	width: 720px;
+}
+
+/* ============== SIDEBAR ============== */
+
+#sideBar {
+	float: right;
+	width: 240px;
+}
+
+#diaporama {
+	margin: 0px auto;	
+}
+
+/* ============================== FOOTER ============================== */
+
+#footer {
+	clear: both;
+	width: 980px;
+	height: 30px;
+	text-align: center;
+}
+
+ 
