@@ -1,0 +1,12 @@
+Taches
+
+- Gestion articles   1
+- validation champs  3
+- creation calendrier 1
+- gestion calendrier 3
+- gestion div droite 3
+- gestion multimedia 3
+- gestion login 2
+- gestion recherche  3
+- internationalistion 3
+- gestion agenda 3
